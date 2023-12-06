@@ -1,7 +1,7 @@
 // Advent of Code 2023, Day
 
-const util = require("./helper.js");
-let data = util.fileToArr("input/d00_input.txt");
+const helper = require("./helper.js");
+let data = helper.fileToArr("input/d00_input.txt");
 console.log(data);
 
 // Step 1
