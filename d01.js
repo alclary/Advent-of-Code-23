@@ -1,7 +1,7 @@
 // Advent of Code 2023, Day 1
 
-const util = require("./util.js");
-let data = util.fileToArr("input/d01_input.txt");
+const helper = require("./helper.js");
+let data = helper.fileToArr("input/d01_input.txt");
 console.log("Part 1:", sum_calibration_vals_int(data));
 console.log("Part 2:", sum_calibration_vals_any(data));
 
